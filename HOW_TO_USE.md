@@ -4,7 +4,7 @@
 **Website:** [https://www.lalitaalaalitah.com](https://www.lalitaalaalitah.com)  
 **GitHub:** [https://github.com/lalitaalaalitah](https://github.com/lalitaalaalitah)  
 
-This repository provides custom Homebrew casks and formulae for macOS applications.
+This repository provides custom Homebrew casks and formulae for macOS applications and keyboard layouts.
 
 ---
 
@@ -19,6 +19,22 @@ brew tap lalitaalaalitah/tap
 ---
 
 ## 2. Installing Casks
+
+### medhA Keyboard
+
+Install `medhA Keyboard`:
+
+```bash
+brew install --cask medha-keyboard
+```
+
+To update `medhA Keyboard`:
+
+```bash
+brew upgrade --cask medha-keyboard
+```
+
+---
 
 ### TmuxRunner
 
