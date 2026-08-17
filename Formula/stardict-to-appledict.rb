@@ -2,8 +2,8 @@ class StardictToAppledict < Formula
   desc "StarDict to AppleDict conversion and installation utilities"
   homepage "https://github.com/lalitaalaalitah/stardict_to_appledict"
   url "https://github.com/lalitaalaalitah/stardict_to_appledict.git",
-      tag: "v1.5.1"
-  version "1.5.1"
+      tag: "v1.5.2"
+  version "1.5.2"
 
   depends_on "uv"
 
