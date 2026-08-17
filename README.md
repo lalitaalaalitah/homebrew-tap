@@ -20,6 +20,7 @@ brew tap lalitaalaalitah/tap
 | :--- | :--- | :--- | :--- |
 | **medhA Keyboard** | Cask | Sanskrit Devanagari keyboard layout for macOS | `brew install --cask medha-keyboard` |
 | **TmuxRunner** | Cask | Terminal wrapper application for running scripts in `tmux` | `brew install --cask tmuxrunner` |
+| **StarDict to AppleDict** | Formula | StarDict to AppleDict conversion and installation utilities | `brew install stardict-to-appledict` |
 
 ---
 
@@ -37,4 +38,12 @@ A lightweight macOS application wrapper to run shell scripts (`.sh` / `.command`
 
 ```bash
 brew install --cask tmuxrunner
+```
+
+### StarDict to AppleDict
+
+StarDict to AppleDict conversion and installation utilities:
+
+```bash
+brew install stardict-to-appledict
 ```

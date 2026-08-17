@@ -55,3 +55,27 @@ To uninstall:
 ```bash
 brew uninstall --cask tmuxrunner
 ```
+
+---
+
+## 3. Installing Formulae
+
+### StarDict to AppleDict
+
+Install `stardict-to-appledict`:
+
+```bash
+brew install stardict-to-appledict
+```
+
+To update `stardict-to-appledict`:
+
+```bash
+brew upgrade stardict-to-appledict
+```
+
+To uninstall:
+
+```bash
+brew uninstall stardict-to-appledict
+```
