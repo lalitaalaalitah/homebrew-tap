@@ -2,8 +2,8 @@ class StardictToAppledict < Formula
   desc "StarDict to AppleDict conversion and installation utilities"
   homepage "https://github.com/lalitaalaalitah/stardict_to_appledict"
   url "https://github.com/lalitaalaalitah/stardict_to_appledict.git",
-      tag: "v1.3.2"
-  version "1.3.2"
+      tag: "v1.4.0"
+  version "1.4.0"
 
   depends_on "uv"
 
@@ -12,7 +12,7 @@ class StardictToAppledict < Formula
     bin.install "install_sanskrit_dicts.py" => "install-sanskrit-dicts"
     bin.install "smart_batch_convert_and_release.py" => "smart-batch-convert-and-release"
     bin.install "patch_pyglossary.py" => "patch-pyglossary"
-    bin.install "pyglossary-3.2.1"
+    bin.install "pyglossary-5.4.2"
   end
 
   test do
