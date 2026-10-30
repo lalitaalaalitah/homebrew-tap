@@ -25,3 +25,4 @@ cask "lalitaalaalitah-chhandansi" do
     Run `chhandansi --help` or `chhandansi --web` to get started.
   EOS
 end
+
