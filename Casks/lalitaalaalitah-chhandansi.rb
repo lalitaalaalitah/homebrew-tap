@@ -1,9 +1,9 @@
 cask "lalitaalaalitah-chhandansi" do
-  version "2.1.0"
+  version "3.0.0"
 
   on_arm do
     url "https://github.com/lalitaalaalitah/chhandansi-binaries/releases/download/v#{version}/chhandansi-darwin-arm64"
-    sha256 "03fb42bd7955e176bf2bcf8aa5ff356a57e43ff1dc33d108d7390d91f5123680"
+    sha256 "5aae385dae94f7be9a738eb3b71dec75880bde3245e23459c7f388124aa51af5"
     binary "chhandansi-darwin-arm64", target: "chhandansi"
   end
   on_intel do
