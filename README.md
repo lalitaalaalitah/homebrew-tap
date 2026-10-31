@@ -45,6 +45,9 @@ Interactive Web GUI:
 chhandansi -w --port 8765
 ```
 
+Live Web Application (Cloud Run):
+[https://chhandaansi.lalitaalaalitah.com](https://chhandaansi.lalitaalaalitah.com)
+
 ---
 
 ### medhA Keyboard
