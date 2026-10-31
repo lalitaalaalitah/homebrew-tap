@@ -20,6 +20,45 @@ brew tap lalitaalaalitah/tap
 
 ## 2. Installing Casks
 
+### chhandansi (ललितालालित-छन्दांसि)
+
+Comprehensive Sanskrit Meter (*Chhandas*) Recognition Engine & Multi-Script Prosody Platform:
+
+Install `chhandansi`:
+
+```bash
+brew install --cask chhandansi
+```
+
+*(Or via full name: `brew install --cask lalitaalaalitah-chhandansi`)*
+
+Verify installation:
+
+```bash
+chhandansi --version
+chhandansi --example
+```
+
+Run interactive web interface:
+
+```bash
+chhandansi -w --port 8765
+```
+
+To update `chhandansi` to the latest release:
+
+```bash
+brew upgrade --cask chhandansi
+```
+
+To uninstall:
+
+```bash
+brew uninstall --cask chhandansi
+```
+
+---
+
 ### medhA Keyboard
 
 Install `medhA Keyboard`:
