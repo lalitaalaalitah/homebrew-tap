@@ -21,6 +21,7 @@ brew tap lalitaalaalitah/tap
 | **chhandansi** | Cask | Comprehensive Sanskrit Meter (Chhandas) Recognition Engine & Multi-Script Prosody Platform | `brew install --cask chhandansi` |
 | **medhA Keyboard** | Cask | Sanskrit Devanagari keyboard layout for macOS | `brew install --cask medha-keyboard` |
 | **TmuxRunner** | Cask | Terminal wrapper application for running scripts in `tmux` | `brew install --cask tmuxrunner` |
+| **folder-watch-n-arrange** | Formula | Universal folder watcher and auto-arranger for SD cards, cameras, and local dirs | `brew install folder-watch-n-arrange` |
 | **StarDict to AppleDict** | Formula | StarDict to AppleDict conversion and installation utilities | `brew install stardict-to-appledict` |
 
 ---
@@ -72,4 +73,20 @@ StarDict to AppleDict conversion and installation utilities:
 
 ```bash
 brew install stardict-to-appledict
+```
+
+---
+
+### FolderWatchNArrange
+
+Universal folder watcher and auto-arranger for macOS and Linux (SD cards, digital cameras, audio recorders, external HDDs, and Desktop):
+
+```bash
+brew install folder-watch-n-arrange
+```
+
+Quick test:
+```bash
+folder-watch-n-arrange --version
+folder-watch-n-arrange --dry-run
 ```

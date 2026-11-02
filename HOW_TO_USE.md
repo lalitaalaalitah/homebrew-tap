@@ -102,6 +102,37 @@ brew uninstall --cask tmuxrunner
 
 ## 3. Installing Formulae
 
+### FolderWatchNArrange
+
+Universal folder watcher and auto-arranger for macOS and Linux (SD cards, digital cameras, audio recorders, external HDDs, and Desktop):
+
+Install `folder-watch-n-arrange`:
+
+```bash
+brew install folder-watch-n-arrange
+```
+
+Verify installation:
+
+```bash
+folder-watch-n-arrange --version
+folder-watch-n-arrange --dry-run
+```
+
+To update `folder-watch-n-arrange` to the latest release:
+
+```bash
+brew upgrade folder-watch-n-arrange
+```
+
+To uninstall:
+
+```bash
+brew uninstall folder-watch-n-arrange
+```
+
+---
+
 ### StarDict to AppleDict
 
 Install `stardict-to-appledict`:
