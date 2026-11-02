@@ -15,3 +15,4 @@ class FolderWatchNArrange < Formula
     assert_match "folder-watch-n-arrange 1.1.2", shell_output("#{bin}/folder-watch-n-arrange --version")
   end
 end
+
