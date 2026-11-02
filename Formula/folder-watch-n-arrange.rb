@@ -1,8 +1,8 @@
 class FolderWatchNArrange < Formula
   desc "Universal Folder Watcher & Auto-Arranger (macOS & Linux)"
   homepage "https://github.com/lalitaalaalitah/FolderWatchNArrange"
-  url "https://github.com/lalitaalaalitah/FolderWatchNArrange/archive/refs/tags/v1.1.2.tar.gz"
-  sha256 "37ac3d0bde44910451949d31ab74e19c4914bf82ef04cc7cee1a96f33dd10b49"
+  url "https://github.com/lalitaalaalitah/FolderWatchNArrange/archive/refs/tags/v2.0.0.tar.gz"
+  sha256 "7018ce1088aea9360779d6ee2964fc188d64bd727d52eec1e0162a69fe2ddb18"
   license "MIT"
 
   uses_from_macos "python"
@@ -12,7 +12,6 @@ class FolderWatchNArrange < Formula
   end
 
   test do
-    assert_match "folder-watch-n-arrange 1.1.2", shell_output("#{bin}/folder-watch-n-arrange --version")
+    assert_match "folder-watch-n-arrange 2.0.0", shell_output("#{bin}/folder-watch-n-arrange --version")
   end
 end
-
