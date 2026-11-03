@@ -133,6 +133,35 @@ brew uninstall folder-watch-n-arrange
 
 ---
 
+### MusicResearchLibrary Downloader
+
+Install `musicresearchlibrary-downloader`:
+
+```bash
+brew install musicresearchlibrary-downloader
+```
+
+Verify installation:
+
+```bash
+musicresearchlibrary-downloader --version
+mrld --version
+```
+
+To update `musicresearchlibrary-downloader` to the latest release:
+
+```bash
+brew upgrade musicresearchlibrary-downloader
+```
+
+To uninstall:
+
+```bash
+brew uninstall musicresearchlibrary-downloader
+```
+
+---
+
 ### StarDict to AppleDict
 
 Install `stardict-to-appledict`:

@@ -22,6 +22,7 @@ brew tap lalitaalaalitah/tap
 | **medhA Keyboard** | Cask | Sanskrit Devanagari keyboard layout for macOS | `brew install --cask medha-keyboard` |
 | **TmuxRunner** | Cask | Terminal wrapper application for running scripts in `tmux` | `brew install --cask tmuxrunner` |
 | **folder-watch-n-arrange** | Formula | Universal folder watcher and auto-arranger for SD cards, cameras, and local dirs | `brew install folder-watch-n-arrange` |
+| **musicresearchlibrary-downloader** | Formula | Downloader, interactive selector, catalog sync, and change tracker for musicresearchlibrary.net | `brew install musicresearchlibrary-downloader` |
 | **StarDict to AppleDict** | Formula | StarDict to AppleDict conversion and installation utilities | `brew install stardict-to-appledict` |
 
 ---
@@ -89,4 +90,21 @@ Quick test:
 ```bash
 folder-watch-n-arrange --version
 folder-watch-n-arrange --dry-run
+```
+
+---
+
+### MusicResearchLibrary Downloader
+
+Downloader, interactive selector, catalog sync, and change tracker for [musicresearchlibrary.net](https://musicresearchlibrary.net/omeka/items/):
+
+```bash
+brew install musicresearchlibrary-downloader
+```
+
+Quick test:
+```bash
+musicresearchlibrary-downloader --version
+mrld --version
+mrld --stats
 ```
