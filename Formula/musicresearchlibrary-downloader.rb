@@ -8,14 +8,14 @@ class MusicresearchlibraryDownloader < Formula
   uses_from_macos "python"
 
   def install
-    rewrite_shebang detected_python_shebang, "musicresearchlibrary_downloader.py"
     libexec.install Dir["src/*"]
     libexec.install "musicresearchlibrary_downloader.py"
 
-    (bin/"musicresearchlibrary-downloader").write_env_script(
-      libexec/"musicresearchlibrary_downloader.py",
-      PYTHONPATH: libexec,
-    )
+    (bin/"musicresearchlibrary-downloader").write <<~EOS
+      #!/usr/bin/env bash
+      export PYTHONPATH="#{libexec}:$PYTHONPATH"
+      exec "#{which("python3")}" "#{libexec}/musicresearchlibrary_downloader.py" "$@"
+    EOS
     bin.install_symlink bin/"musicresearchlibrary-downloader" => "mrld"
   end
 
